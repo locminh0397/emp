@@ -1,0 +1,122 @@
+@import url('https://cdn.syncfusion.com/ej2/material.css');
+
+.sidebar {
+  box-shadow: rgb(113 122 131 / 11%) 0px 7px 30px 0px;
+}
+.nav-item,
+.navbar {
+  z-index: 10000;
+}
+@media  screen and (max-width:800px) {
+  .sidebar{
+    z-index: 10000000;
+  }
+}
+
+.e-dlg-center-center, .e-quick-popup-wrapper.e-device{
+  z-index: 1000000 !important;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(216, 216, 216);
+  border-radius: 40px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* color-picker style  */
+
+ #preview {
+  background: transparent
+    url('https://ej2.syncfusion.com/react/demos/src/color-picker/images/pen.png')
+    no-repeat;
+  display: inline-block;
+  height: 80px;
+  margin: 10px 0;
+  min-width: 300px;
+  max-width: 600px;
+  background-color: #008000;
+}
+
+.e-input-group:not(.e-float-icon-left), .e-input-group.e-success:not(.e-float-icon-left), .e-input-group.e-warning:not(.e-float-icon-left), .e-input-group.e-error:not(.e-float-icon-left), .e-input-group.e-control-wrapper:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-success:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-warning:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-error:not(.e-float-icon-left){
+  border: none;
+}
+/* Định dạng cho bảng và dữ liệu hàng được chọn */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+#selectedRowData {
+  margin-top: 10px;
+}
+.phancongtime {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 1rem; /* optional: add some space between rows */
+  
+}
+
+.phancongtime > select {
+  margin-right: 1rem; /* optional: add some space between select and input fields */
+}
+
+.phancongtime > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.phancongtime > div > label {
+  margin-right: 0.5rem; /* optional: add some space between label and input field */
+}
+
+.phancongtime > div > input {
+  width: 10rem; /* optional: set the width of input fields */
+}
+.ngayphancong{
+  background-color:rgb(3, 201, 215);;
+  margin-left: 10px;
+  color: aliceblue;
+  font-weight: 800;
+}
+.danhgiacongviec{
+  display: flex;
+  align-items: center;
+}
+.danhgiacongviec input{
+  width: 30px;
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+.danhgiacongviec button{
+  margin-left: 20px;
+}
+.danhgiakpi{
+  text-align: center;
+}
+.danhgiakpi label{
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+}
+.danhgiakpi button{
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+}
